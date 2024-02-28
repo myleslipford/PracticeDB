@@ -6,7 +6,7 @@ cr = conn.cursor()
 cr.execute("""CREATE TABLE IF NOT EXISTS movies( 
            Id INTERGER PRIMARY KEY,
            title TEXT,
-           dircector TEXT,
+           director TEXT,
            year Integer,
            genre TEXT )
            """)
